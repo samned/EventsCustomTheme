@@ -1,0 +1,23 @@
+{
+  "name": "bt5",
+  "version": "1.0.0",
+  "description": "bootstrap 5",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel index.html"
+  },
+  "keywords": [
+    "custom",
+    "bootstrap"
+  ],
+  "author": "samuel abebayehu",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.0.0-alpha1",
+    "g": "^2.0.1",
+    "popper.js": "^1.16.1"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}
