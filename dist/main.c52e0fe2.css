@@ -2,15 +2,56 @@
   color: wheat;
   height: 100vh;
   min-height: 500px;
-  background-image: url("https://source.unsplash.com/BtbjCFUvBXs/1920x1080");
+  background-image: url("https://res.cloudinary.com/samned/image/upload/v1593067399/concert-768722_1920_mubxwa.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-color: #0798c9;
 }
 
-.nav-item:hover {
-  background: lightgrey;
+.navbar {
+  background-image: radial-gradient(circle farthest-corner at 10% 20%, #ee1947 0%, #f3bd1a 100.2%);
+  color: #ffffff;
+}
+
+.nav-link {
+  font-weight: 400;
+}
+
+.nav-link:hover {
+  font-weight: 400;
+  border-bottom: 1px solid #f3f3f3;
+}
+
+.searchbar {
+  margin-bottom: auto;
+  margin-top: auto;
+  background-image: linear-gradient(110.4deg, #ffc4fe 9.6%, #fbe57b 91%);
+  border-radius: 20px;
+}
+
+.search_input {
+  color: blue;
+  border: 0;
+  outline: 0;
+  background: none;
+  width: 100px;
+  caret-color: transparent;
+  line-height: 35px;
+  -webkit-transition: width 0.4s linear;
+  transition: width 0.4s linear;
+  padding: 0 10px;
+}
+
+.searchbar:hover > .search_input {
+  padding: 0 10px;
+  width: 250px;
+  caret-color: red;
+  -webkit-transition: width 0.4s linear;
+  transition: width 0.4s linear;
+}
+
+.bi {
+  color: #e6a800;
 }
 
 /*!
